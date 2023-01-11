@@ -1,0 +1,32 @@
+@media screen and (min-width: 32.5em) {
+
+    body {
+        width: 30%;
+    }
+
+    #me {
+        width: 100px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        text-align: center;
+        margin-left: -10px;
+        
+
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+
+
+
+
+}
