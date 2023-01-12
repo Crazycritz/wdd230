@@ -1,0 +1,103 @@
+body {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#pic1,
+#pic2,
+#pic3 {
+    width: 350px;
+    height: auto;
+}
+
+.content {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+
+}
+
+.image-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: cyan;
+    border: solid black;
+
+}
+
+.image-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: cyan;
+    border: solid black;
+
+}
+
+.image-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: cyan;
+    border: solid black;
+
+
+}
+
+.top {
+    background-color: cyan;
+    padding: 50px;
+    border: solid black;
+}
+
+footer {
+
+    margin-top: 100px;
+    background-color: cyan;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+    border: solid black;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.content p {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+#year {
+    font-size: 1.5em;
+}
+
+.explanation-1,
+.explanation-2,
+.explanation-3 {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+
+}
+
+#last-modified {
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+

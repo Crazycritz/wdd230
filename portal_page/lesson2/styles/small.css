@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    body {
+
+        width: 100%;
+
+    }
+
+    .content {
+
+        display: grid;
+        margin-top: 100px;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+        row-gap: 15px;
+
+    }
+
+    .image-1 {
+        grid-column: 1/2;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: cyan;
+        border: solid black;
+
+    }
+
+    .image-2 {
+        grid-column: 1/2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: cyan;
+        border: solid black;
+
+    }
+
+    .image-3 {
+        grid-column: 1/2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: cyan;
+        border: solid black;
+
+
+    }
+
+}
