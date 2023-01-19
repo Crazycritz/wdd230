@@ -1,0 +1,27 @@
+@media screen and (max-width: 32.5em) {
+    :root{
+        --primary-color: #eef2f6   ;
+        --secondary-color: #232F3C ;
+        --accent1-color: #23A6EF;
+        --accent2-color: #1D7DB2;
+        --fontsizebig: 2em;
+        --fontsizebigish: 1.5em;
+        --fontsizemed:1.2em;
+        --fontsmall:1em;
+    }
+
+    body{
+        max-width: 90vw;
+    }
+
+    header h1{
+        margin: 0 auto;
+    }
+
+    img{
+        width: 150px;
+    }
+    }
+   
+
+   
