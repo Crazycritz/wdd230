@@ -18,6 +18,7 @@ h1{
     font-size: var(--fontsizebig);
     margin-top: 20px;
     color: var(--accent1-color);
+    
    
 }
 h2{
@@ -65,7 +66,6 @@ body{
 }
 a{
     padding: 20px;
-    display: flex;
     margin-left: -20px;
 }
 img{
@@ -75,5 +75,10 @@ img{
 
 #purpose{
     color: #eef2f6;
+}
+
+nav{
+    display: flex;
+	flex-direction: column;
 }
 

@@ -21,7 +21,15 @@
     img{
         width: 150px;
     }
+
+    a{
+        padding: 20px;
+        display: flex;
+        margin-left: -20px;
     }
+    }
+
+    
    
 
    
