@@ -13,7 +13,8 @@ button.addEventListener("click", function () {
   buttonDel.innerHTML = "❌";
   li.setAttribute("id", input.value);
   buttonDel.addEventListener( "click", function () {
-    document.getElementById(input.value).remove()
+    element = li.getAttribute('id')
+    document.getElementById(element).remove()
     document.getElementById("favchap").focus();
     input.value = '';
   });
