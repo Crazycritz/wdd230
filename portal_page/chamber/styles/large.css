@@ -14,8 +14,39 @@
     body {
         padding: 0;
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
         background-color: #232F3C;
+    }
+
+    .banner{
+        background: #23A6EF;
+        display: none;
+    }
+
+    .banner__content{
+        padding: 16px;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .banner__text{
+        flex-grow: 1;
+        line-height: 1.4;
+        
+    }
+
+    .banner__close{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .banner__text h2,
+    .banner__close{
+        color: #232F3C;
     }
 
     h1,
@@ -28,6 +59,8 @@
 
 
     }
+
+
 
     p {
 
@@ -85,6 +118,7 @@
     .social {
         margin-right: 1.5rem;
         margin-left: -10px;
+        
 
     }
 
@@ -96,7 +130,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 150px 150px 150px;
+        grid-template-rows: 350px 350px 350px;
         column-gap: 25px;
         row-gap: 25px;
         margin-top: 30px;
@@ -114,6 +148,7 @@
         grid-row-end: 2;
         background-color: #eef2f6;
         border: 5px solid #23A6EF;
+        text-align: center;
     }
 
     .weather {
@@ -123,6 +158,7 @@
         grid-row-end: 3;
         background-color: #eef2f6;
         border: 5px solid #23A6EF;
+        text-align: center;
     }
 
     .join {
@@ -132,6 +168,7 @@
         grid-row-end: 4;
         background-color: #eef2f6;
         border: 5px solid #23A6EF;
+        text-align: center;
     }
 
     .hero {
@@ -139,7 +176,7 @@
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 3;
-        background-color: #eef2f6;
+        background-color: #232F3C;
         border: 5px solid #23A6EF;
     }
 
@@ -150,6 +187,7 @@
         grid-row-end: 4;
         background-color: #eef2f6;
         border: 5px solid #23A6EF;
+        text-align: center;
     }
 
     .spotlight {
@@ -159,40 +197,40 @@
         grid-row-end: 4;
         background-color: #eef2f6;
         border: 5px solid #23A6EF;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 350px 350px 350px;
+        row-gap:  25px;
     }
 
     .spotlight1 {
-        grid-column-start: 3;
-        grid-column-end: 4;
+      
         grid-row-start: 1;
         grid-row-end: 2;
-        height: 150px;
+        height: 350px;
         background-color: #eef2f6;
-        border: 5px solid #23A6EF;
+        
 
     }
 
     .spotlight2 {
-
-        grid-column-start: 3;
-        grid-column-end: 4;
         grid-row-start: 2;
         grid-row-end: 3;
-        height: 150px;
+        height: 350px;
         background-color: #eef2f6;
-        border: 5px solid #23A6EF;
+        border-top: 5px solid #23A6EF;
+        
 
 
     }
 
     .spotlight3 {
-        grid-column-start: 3;
-        grid-column-end: 4;
+        border-top: 5px solid #23A6EF;
         grid-row-start: 3;
         grid-row-end: 4;
-        height: 150px;
+        height: 350px;
         padding: 5px;
-        border: 5px solid #23A6EF;
+       
 
 
 
@@ -208,6 +246,8 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 150px 200px;
         width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
         
        
     }
@@ -260,14 +300,22 @@
         margin-top: 100px;
         margin-bottom: 25px;
         border-top: solid black;
-        display: flex;
+        text-align: center;
         grid-row: 2/3;
         grid-column: 1/3;
+        
+       
     }
 
     #lastModified {
         margin-top: 17px;
         margin-left: 5px;
+        font-family: 'Lora', serif;
+        
+        grid-column: 2;
+        grid-row: 2/3
+        
+       
     }
 
 
@@ -288,6 +336,11 @@
         color: #232F3C;
     }
 
+    nav a:hover{
+        color: #232F3C;
+        background-color: #23A6EF;
+    }
+
   
     
     
@@ -296,6 +349,7 @@
         margin-left: 120px;
         padding: 10px;
         display: flex;
+        
        
        
         
@@ -342,6 +396,61 @@
         font-size: 1.5rem;
         display: flex;
     }
+
+    
+    .hero-img{
+        height: 100%;
+        width: 100%;
+        
+        
+        
+        
+       
+        
+    }
+    
+    .hero h2{
+        text-align: center;
+        margin-top: -500px;
+        color: #eee;
+        font-size: 4em;
+        text-shadow: 3px 3px black;
+        
+        
+        
+    
+    }
+    
+    .red-img{
+        height: 100px;
+    }
+    
+    .xerox-img{
+        height: 100px;
+    }
+    
+    .map{
+        width: 10px;
+    }
+
+    .powerade-img{
+        height: 100px;
+    }
+
+
+    .join-us{
+        background-color: #232F3C;
+        color: #23A6EF;
+        font-size: 1.5em;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+
+
+
+    
+
     
     
     

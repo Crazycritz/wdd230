@@ -13,6 +13,38 @@ body {
     margin: 0 auto;
     width: 90%;
     background-color: #232F3C;
+    
+}
+
+.banner{
+    background: #23A6EF;
+    display: none;
+}
+
+.banner__content{
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner__text{
+    flex-grow: 1;
+    line-height: 1.4;
+    
+}
+
+.banner__close{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.banner__text h2,
+.banner__close{
+    color: #232F3C;
 }
 
 h1,
@@ -52,8 +84,6 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
-    width: 80%;
     margin-left: 50px;
    
 }
@@ -61,6 +91,7 @@ header {
 .logo img {
     width: 80px;
     height: auto;
+    margin-left: 75px;
 }
 
 .headings {
@@ -83,6 +114,7 @@ header {
 
 .social {
     margin-left: -150px;
+   
     
 
 }
@@ -90,12 +122,13 @@ header {
 .social svg {
     width: 25px;
     height: auto;
+   
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 200px 200px 250px 250px 250px 250px;
     column-gap: 25px;
     row-gap: 25px;
     margin-top: 30px;
@@ -106,12 +139,12 @@ main {
 
 
 .event {
-
+    margin-top: 50px;
     grid-column: 1;
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    
 }
 
 .weather {
@@ -119,7 +152,7 @@ main {
     grid-row-start: 3;
     grid-row-end: 4;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    
 }
 
 .join {
@@ -127,7 +160,8 @@ main {
     grid-row-start: 4;
     grid-row-end: 5;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    display: none;
+    
 }
 
 .hero {
@@ -135,23 +169,24 @@ main {
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    
+    
 }
 
 .new-release {
     grid-column: 1;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    
 }
 
 .spotlight {
     grid-column: 1;
     grid-row-start: 5;
-    grid-row-end: 8;
+    grid-row-end: 7;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    
     flex-direction: column;
 }
 
@@ -160,7 +195,8 @@ main {
     grid-row-start: 5;
     grid-row-end: 6;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    margin-top: 20px;
+    
     height: 150px;
 
 }
@@ -171,7 +207,8 @@ main {
     grid-row-start: 6;
     grid-row-end: 7;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+    margin-top: 100px;
+   
     height: 150px;
 
 
@@ -182,8 +219,9 @@ main {
     grid-row-start: 7;
     grid-row-end: 8;
     background-color: #eef2f6;
-    border: 5px solid #23A6EF;
+   
     height: 160px;
+    display: none;
 
 
 
@@ -217,9 +255,13 @@ footer {
 }
 
 .contact {
-    
+    text-decoration: none;
     text-align: center;
 
+}
+
+.contact a{
+    text-decoration: none;
 }
 
 .address{
@@ -236,12 +278,15 @@ footer {
     margin-top: 25px;
     border-top: solid black;
     display: flex;
+    
    
 }
+
 
 #lastModified {
     margin-top: 17px;
     margin-left: 5px;
+    font-family: 'Lora', serif;
     
 }
 
@@ -260,13 +305,15 @@ footer {
 nav a {
     text-decoration: none;
     font-size: 1.5em;
+   
     
 }
 
 
 nav {
 	margin: 0 auto;
-	margin-left: 120px;
+    
+	
     
 	
 }
@@ -286,6 +333,7 @@ nav {
 	display: none;
     
     
+    
 }
 .navigation a {
 	display: block;
@@ -294,17 +342,14 @@ nav {
 	text-decoration: none;
 	color: #23A6EF;
 	font-weight: 700;
+    margin-left: -400px;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
-    margin-left: -375px;
-    background-color: #232F3C;
-    width: 15px;
-    
-    
-    
-    
 
-    
+    background-color: #232F3C;
+    width: 450px;
+    z-index: 2;
+     
     
     
 }
@@ -315,14 +360,11 @@ nav {
 }
 
 .navigation a:hover, .navigation a:active {
-	color: #23A6EF;
-    background-color: white;
-    
-    
-    
+    color: #232F3C;
+    background-color: #23A6EF;
+    width: 20px;
 
-  
-    
+      
 }
 
 
@@ -341,5 +383,40 @@ nav {
     
 
 }
+
+.hero-img{
+    width: 100%;
+    height: auto;
+    
+    
+   
+    
+}
+
+.hero h2{
+    text-align: center;
+    margin-top: -200px;
+    color: #eee;
+    font-size: 1.5em;
+    text-shadow: 3px 3px black;
+    
+    
+    
+
+}
+
+.red-img{
+    height: 100px;
+}
+
+.xerox-img{
+    height: 100px;
+}
+
+.map{
+    width: 10px;
+}
+
+
 
 }
