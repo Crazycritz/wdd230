@@ -66,12 +66,13 @@
 
         font-family: 'Lora', serif;
         padding-left: 10px;
+        font-size: 1.5em;
 
 
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     header {
@@ -102,10 +103,11 @@
         margin-left: .5rem;
         text-shadow: 2px 2px black;
         width: 20%;
+        
     }
 
     .headings h1 {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 
     .m {
@@ -346,9 +348,9 @@
     
     nav {
         margin: 0 auto;
-        margin-left: 120px;
+       margin-left: 300px;
         padding: 10px;
-        display: flex;
+        
         
        
        
@@ -372,6 +374,7 @@
     .navigation li {
         
         padding: 5px;
+        
         
         
         
