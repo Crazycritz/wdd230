@@ -115,7 +115,7 @@
 
         .social {
             margin-right: 1.5rem;
-            margin-left: -10px;
+            
 
         }
 
@@ -127,7 +127,7 @@
         main {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 320px 250px 250px 250px 300px 300px;
+            grid-template-rows: 225px 250px 250px 250px 300px 300px;
             column-gap: 25px;
             row-gap: 50px;
             margin-top: 30px;
@@ -364,6 +364,7 @@
             display: none;
             
             
+            
         }
         .navigation a {
             display: block;
@@ -374,9 +375,9 @@
             font-weight: 700;
             transition: 0.5s;
             font-size: clamp(1rem, 2vmin, 1.5rem);
-            margin-left: -300px;
+            margin-left: -320px;
             background-color: #232F3C;
-            width: 15px;
+            width: 415px;
             
             
             
@@ -395,6 +396,7 @@
         .navigation a:hover, .navigation a:active {
             color: #232F3C;
             background-color: #23A6EF;
+            width: 15px;
             
             
             
@@ -406,7 +408,7 @@
         
         .responsive li {
             display: block;
-            width: 100px; 
+             
             
             
         }

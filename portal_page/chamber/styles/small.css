@@ -73,25 +73,25 @@ h2 {
 header {
     background-color: #fff;
     padding: 5px 0;
-
     align-items: center;
     justify-content: space-between;
-
-    margin: 0 auto;
     border: 5px solid #23A6EF;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    
    
 }
 
 .logo img {
     width: 80px;
     height: auto;
-    margin-left: 75px;
+    margin-left: 150px;
+    
+    
+    
 }
 
 .headings {
@@ -112,13 +112,10 @@ header {
     font-size: 0.8rem;
 }
 
-.social {
-    margin-left: -150px;
-   
+.social{
+    margin-right: 50px;
+}  
     
-
-}
-
 .social svg {
     width: 25px;
     height: auto;
@@ -144,6 +141,7 @@ main {
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: #eef2f6;
+    text-align: center;
     
 }
 
@@ -152,6 +150,7 @@ main {
     grid-row-start: 3;
     grid-row-end: 4;
     background-color: #eef2f6;
+    text-align: center;
     
 }
 
@@ -178,6 +177,7 @@ main {
     grid-row-start: 4;
     grid-row-end: 5;
     background-color: #eef2f6;
+    text-align: center;
     
 }
 
@@ -186,7 +186,7 @@ main {
     grid-row-start: 5;
     grid-row-end: 7;
     background-color: #eef2f6;
-    
+    text-align: center;
     flex-direction: column;
 }
 
@@ -311,7 +311,8 @@ nav a {
 
 
 nav {
-	margin: 0 auto;
+	width: 100%;
+
     
 	
     
@@ -336,19 +337,18 @@ nav {
     
 }
 .navigation a {
-	display: block;
+	display:block;
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
 	color: #23A6EF;
 	font-weight: 700;
-    margin-left: -400px;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
-
     background-color: #232F3C;
-    width: 450px;
-    z-index: 2;
+    width: 410px;
+    margin-left: -350px;
+    border: 2px solid #23A6EF;
      
     
     
@@ -362,7 +362,7 @@ nav {
 .navigation a:hover, .navigation a:active {
     color: #232F3C;
     background-color: #23A6EF;
-    width: 20px;
+    width: 100%
 
       
 }
@@ -416,6 +416,8 @@ nav {
 .map{
     width: 10px;
 }
+
+
 
 
 
