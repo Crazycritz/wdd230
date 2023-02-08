@@ -21,5 +21,6 @@ button.addEventListener("click", function () {
 
   li.appendChild(buttonDel);
   ul.appendChild(li);
- 
+  input.value = '';
+  document.getElementById("favchap").focus();
 });
