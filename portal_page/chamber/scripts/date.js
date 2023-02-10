@@ -31,7 +31,7 @@ if (day == 1) {
   document.querySelector(".banner__close").closest(".banner").style.display =
     "block";
 }
-if (day == 4) {
+if (day == 2) {
   document.querySelector(".banner__close").closest(".banner").style.display =
     "block";
 }
