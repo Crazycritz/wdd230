@@ -97,13 +97,14 @@
     .logo img {
         width: 80px;
         height: auto;
+        margin-left: -50px;
         
     }
 
     .headings {
         display: flex;
         flex-direction: column;
-        margin-left: .5rem;
+        margin-left: -40px;
         text-shadow: 2px 2px black;
         width: 50px;
 
@@ -387,9 +388,9 @@
         font-weight: 700;
         transition: 0.5s;
         font-size: clamp(1rem, 2vmin, 1.5rem);
-        margin-left: -320px;
+        margin-left: -300px;
         background-color: #232F3C;
-        width: 415px;
+        width: 375px;
 
 
 

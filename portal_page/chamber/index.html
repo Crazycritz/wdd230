@@ -29,8 +29,8 @@
     </div>
     <header>
         <div class="logo">
-            <figure><img src="images/logo.jpg" alt="The world logo"
-                    srcset="images/75.jpg 1x, images/150.jpg 2x, images/225.jpg 3x"/></figure>
+            <figure><img src="images/logo.webp" alt="The world logo"
+                    srcset="images/75.webp 1x, images/150.webp 2x, images/225.webp 3x" /></figure>
 
             <section class="headings">
                 <h1>Momentum</h1>
@@ -142,27 +142,41 @@
                 Lorem ipsum dolor sit amet. Eos blanditiis provident qui quia
                 recusandae ut reiciendis voluptas et officia pariatur? Et quidem
                 impedit a quidem architecto et quia dolor aut accusamus Quis sed
-                dignissimos voluptatem cum quae corrupti. Ea sint nihil non quidem
-                cupiditate non voluptatum error eos optio ipsam ut voluptas quibusdam!
+                dignissimos voluptatem cum quae corrupti.
             </p>
         </div>
 
         <section class="spotlight">
             <div class="spotlight1">
                 <h2>Red-Alert</h2>
-                <img class="red-img" src="images/red.png" alt="Red Alert Logo" />
+                <picture>
+                    <source media="(max-width:600px)" srcset="images/red75.png" />
+                    <source media="(max-width:800px)" srcset="images/red150.png" />
+                    <source media="(max-width:992px)" srcset="images/red225.png" />
+                    <img class="red-img" src="images/red.png" alt="Red Alert Logo" />
+                </picture>
                 <h3>"Keeping you safe at all times!"</h3>
                 <p>Contact Details</p>
             </div>
             <div class="spotlight2">
                 <h2>Xerox</h2>
-                <img class="xerox-img" src="images/xerox.png" alt="Xerox Logo" />
+                <picture>
+                    <source media="(max-width:600px)" srcset="images/xerox75.png" />
+                    <source media="(max-width:800px)" srcset="images/xerox150.png" />
+                    <source media="(max-width:992px)" srcset="images/xerox225.png" />
+                    <img class="xerox-img" src="images/xerox.png" alt="Xerox Logo" />
+                </picture>
                 <h3>"For all your printing needs!"</h3>
                 <p>Contact Details</p>
             </div>
             <div class="spotlight3">
                 <h2>Powerade</h2>
-                <img class="powerade-img" src="images/powerade.jpg" alt="Powerade logo" />
+                <picture>
+                    <source media="(max-width:600px)" srcset="images/powerade150.jpg" />
+                    <source media="(max-width:800px)" srcset="images/powerade200.jpg" />
+                    <source media="(max-width:992px)" srcset="images/powerade250.jpg" />
+                    <img class="powerade-img" src="images/powerade.jpg" alt="Powerade logo" />
+                </picture>
                 <h3>"Stay Hydrated"</h3>
                 <p>Contact Details</p>
             </div>
