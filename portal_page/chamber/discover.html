@@ -2,18 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Description" content="The home page for Momentum Chamber of Commerce" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="The Discover Page for Momentum Chamber of Commerce" />
     <link rel="stylesheet" href="styles/large.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet" />
-
-    <title>Home Page</title>
+    <title>Discover</title>
 </head>
 
 <body>
@@ -39,7 +38,7 @@
             <nav>
                 <ul class="navigation">
                     <li><a id="menu" href="#"></a></li>
-                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="index.html">Discover</a></li>
                     <li><a href="index.html">Directory</a></li>
                     <li><a href="index.html">Join</a></li>
                     <li><a href="index.html">Contact</a></li>
@@ -105,82 +104,89 @@
     </header>
 
     <main>
-        <div class="hero">
-            <picture>
-                <source media="(max-width:600px)" srcset="images/small.jpg" />
-                <source media="(max-width:800px)" srcset="images/medium.jpg" />
-                <img class="hero-img" src="images/large.jpg" alt="Hero Image" />
+
+        <p class="num-visit"><span>Number of days since last visit: </span><span id="days"></span></p>
+
+        <div class="pic-content">
+            <picture class="pic1">
+                <img class="hero-img" src="http://via.placeholder.com/300x400" alt="Nahoon Beach"
+                    data-srcset="images/beach150.jpg 400w, images/beach250.jpg 600w, images/beach350.jpg 800w, images/beach.jpg 1000w"
+                    data-src="images/beach.jpg" />
+                <h3>Nahoon Beach</h3>
             </picture>
 
-            <h2>Welcome to Momentum</h2>
-        </div>
-        <div class="event">
-            <h2>Aquarium Opening</h2>
-            <p>
-                Join us for the grand opening of The East london Aquarium, Thursday at
-                1:00 p.m.
-            </p>
-        </div>
-        <div class="weather">
-            <h2>Weather</h2>
-            <section>
-                <h3>Partly Cloudy <span id="temp">10</span>°C</h3>
-            </section>
-            <p>Wind Speed: <span id="speed">6</span>km/h</p>
-            <p id="chill">Wind Chill: N/A</p>
-        </div>
-        <div class="join">
-            <button class="join-us">Join Us!</button>
-            <p>
-                Discover how to join the our chamber of commerce and how it will
-                benefit you
-            </p>
-        </div>
-        <div class="new-release">
-            <h2>News Release</h2>
-            <p>
-                Lorem ipsum dolor sit amet. Eos blanditiis provident qui quia
-                recusandae ut reiciendis voluptas et officia pariatur? Et quidem
-                impedit a quidem architecto et quia dolor aut accusamus Quis sed
-                dignissimos voluptatem cum quae corrupti.
-            </p>
+
+            <picture class="pic2">
+                <img class="hero-img" src="http://via.placeholder.com/300x400" alt="Town Hall Beach"
+                    data-srcset="images/hall150.jpg 400w, images/hall250.jpg 600w, images/hall350.jpg 800w, images/hall.jpg 1000w"
+                    data-src="images/hall.jpg" />
+                <h3>Town Hall</h3>
+            </picture>
+
+            <picture class="pic3">
+                <img class="hero-img" src="http://via.placeholder.com/300x400" alt="Museum"
+                    data-srcset="images/museum150.jpg 400w, images/museum250.jpg 600w, images/museum350.jpg 800w, images/musuem.jpg 1000w"
+                    data-src="images/museum.jpg" />
+                <h3>Museum</h3>
+            </picture>
+
+            <picture class="pic4">
+                <img class="hero-img" src="http://via.placeholder.com/300x400" alt="Harbour"
+                    data-srcset="images/harbour150.jpg 400w, images/harbour250.jpg 600w, images/harbour350.jpg 800w, images/harbour.jpg 1000w"
+                    data-src="images/harbour.jpg" />
+                <h3>Harbour</h3>
+            </picture>
+
+            <picture class="pic5">
+                <img class="hero-img" src="http://via.placeholder.com/300x400" alt="Hemingways Mall"
+                    data-srcset="images/hemingways150.jpg 400w, images/hemingways250.jpg 600w, images/hemingways350.jpg 800w, images/hemingways.jpg 1000w"
+                    data-src="images/hemingways.jpg" />
+                <h3>Hemingways Mall</h3>
+            </picture>
+
+            <div class="nahoon">
+                <p>Nahoon beach is a surfer’s and swimmer’s paradise and is arguably East London’s most popular beach -
+                    we’re talking kilometres of (mostly) uncrowded and unpolluted sand and sea that produces some of the
+                    best waves, particularly at the famous Nahoon reef where surfing can be fairly tough, hence its
+                    having served as a venue for many of the national surfing competitions. It is a popular tourist
+                    attraction as well.</p>
+            </div>
+
+            <div class="hall">
+                <p>In 1897, the magnificent City Hall (as it is known today) was built between Oxford Street and Argyle
+                    Street. It has a distinctive Victorian architectural style. Its dark oxblood walls are juxtaposed by
+                    stark white columns and romantic, if bold, arched windows. It is the heart of the city and home of
+                    the mayor.</p>
+            </div>
+
+            <div class="museum">
+                <p>The East London Museum houses all the history of our city. It pays tribute to the prehistoric
+                    Coelacanth Fish which was found off our coast. It was established in 1921. It has many cool
+                    histoical items that many love to see and enjoy.
+                </p>
+            </div>
+
+            <div class="harbour">
+                <p>The harbour is the life of the city. It was reason for our city even beginning in the first place.
+                    Major imports and exports go through the harbour. The harbour is actually in the Buffalo River, only
+                    because the depth of the river allows for it. Without the harbour a great deal of business would be
+                    lost in our city.</p>
+            </div>
+
+            <div class="mall">
+                <p>The Hemingways Mall is the major shopping centre of East London. It stretches for miles, has multiple
+                    floors and facilitates major business within our city. It has a wide variety of things from food
+                    courts to cinemas and much more.</p>
+            </div>
+
+
+
+
         </div>
 
-        <section class="spotlight">
-            <div class="spotlight1">
-                <h2>Red-Alert</h2>
-                <picture>
-                    <source media="(max-width:600px)" srcset="images/red75.png" />
-                    <source media="(max-width:800px)" srcset="images/red150.png" />
-                    <source media="(max-width:992px)" srcset="images/red225.png" />
-                    <img class="red-img" src="images/red.png" alt="Red Alert Logo" />
-                </picture>
-                <h3>"Keeping you safe at all times!"</h3>
-                <p>Contact Details</p>
-            </div>
-            <div class="spotlight2">
-                <h2>Xerox</h2>
-                <picture>
-                    <source media="(max-width:600px)" srcset="images/xerox75.png" />
-                    <source media="(max-width:800px)" srcset="images/xerox150.png" />
-                    <source media="(max-width:992px)" srcset="images/xerox225.png" />
-                    <img class="xerox-img" src="images/xerox.png" alt="Xerox Logo" />
-                </picture>
-                <h3>"For all your printing needs!"</h3>
-                <p>Contact Details</p>
-            </div>
-            <div class="spotlight3">
-                <h2>Powerade</h2>
-                <picture>
-                    <source media="(max-width:600px)" srcset="images/powerade150.jpg" />
-                    <source media="(max-width:800px)" srcset="images/powerade200.jpg" />
-                    <source media="(max-width:992px)" srcset="images/powerade250.jpg" />
-                    <img class="powerade-img" src="images/powerade.jpg" alt="Powerade logo" />
-                </picture>
-                <h3>"Stay Hydrated"</h3>
-                <p>Contact Details</p>
-            </div>
-        </section>
+
+
+
     </main>
 
     <footer>
@@ -211,7 +217,9 @@
         </section>
     </footer>
     <script src="scripts/date.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
+
 </body>
 
 </html>

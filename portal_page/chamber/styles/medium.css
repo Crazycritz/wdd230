@@ -250,7 +250,7 @@
         padding: 5px 0;
         margin: 0 auto;
         border: 5px solid #23A6EF;
-        margin-top: -250px;
+        margin-top: -220px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 150px 200px;
@@ -477,6 +477,118 @@
         font-size: 1.5em;
         margin: 0 auto;
         width: 80%;
+    }
+
+    .pic-content{
+        margin-top: 50px;
+        grid-column: 1/4;
+        grid-row: 1/7;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px 350px 350px 350px 350px ;
+    }
+
+
+    .pic-content picture:hover {box-shadow: 0 0 50px #23A6EF;}
+
+    .pic1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 100%;
+        
+    }
+
+    .pic2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 100%;
+    }
+
+    .pic3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 100%;
+    }
+
+    .pic4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        width: 100%;
+    }
+
+    .pic5{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        width: 100%;
+    }
+
+    .nahoon{
+       
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .hall{
+        grid-column: 2/3;
+        grid-row: 2/3;
+      
+
+    }
+
+    .museum{
+        grid-column: 2/3;
+        grid-row: 3/4;
+       
+    }
+
+    .harbour{
+        grid-column: 2/3;
+        grid-row: 4/5;
+     
+
+    }
+
+    .mall{
+        grid-column: 2/3;
+        grid-row: 5/6;
+      
+
+    }
+
+    .pic-content p{
+        color: #eee;
+        font-size: 1em;
+        margin-top: -5px;
+        
+    }
+
+    .pic-content h3{
+        font-size: 1.5em;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: -5px;
+    }
+
+    .pic-content picture{
+        height: 100px;
+    }
+
+
+    #visits {
+        color: #23A6EF;
+        font-weight: bolder;
+        font-size: larger;
+        text-decoration: underline;
+    }
+
+    .num-visit{
+        text-align: center;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        color: #eee;
+        font-size: 1em;
+        margin: 0 auto;
+        margin-top: -15px;
     }
 
 
