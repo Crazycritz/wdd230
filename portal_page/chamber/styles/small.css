@@ -233,7 +233,7 @@ footer {
     background-color: #fff;
     padding: 5px 0;
     border: 5px solid #23A6EF;
-    margin-top: 1000px;
+    margin-top: 500px;
     text-align: center;
     
 }
@@ -436,7 +436,7 @@ nav {
     grid-row: 1/7;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 650px 450px 400px 450px 450px ;
+    grid-template-rows: 450px 350px 300px 350px 350px ;
 }
 
 
@@ -508,7 +508,7 @@ nav {
 
 .pic-content p{
     color: #eee;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top: -5px;
     
 }
