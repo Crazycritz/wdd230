@@ -27,6 +27,7 @@ document.querySelector(".banner__close").addEventListener("click", function () {
 
 const now = new Date();
 const day = now.getDay();
+console.log(day)
 if (day == 1) {
   document.querySelector(".banner__close").closest(".banner").style.display =
     "block";
