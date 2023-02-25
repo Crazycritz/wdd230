@@ -543,6 +543,105 @@ nav {
 }
 
 
+.thanks h1{
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    
+}
+
+.thanks p{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+
+.thanks{
+    background-color: white;
+    border: 10px solid black;
+    max-width: 300px;
+   
+    margin: 0 auto;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+
+form {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.35rem;
+    width: 250px;
+    height: 1400px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #23A6EF;
+    border: 5px solid white;
+    font-size: 1.2em;
+   
+    
+}
+
+.message{
+    color: #232F3C;
+    text-align: center;
+   
+    
+  
+ 
+}
+
+#description{
+    width: 80%;
+}
+
+
+label,
+input,
+textarea,
+button {
+    padding: 0.35rem;
+}
+
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #ddd;
+}
+
+label {
+    grid-column: 1/3;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+
+}
+
+input {
+    padding: 12px 12px 12px 5px;
+    font-size: 0.8em;
+
+}
+
+.level{
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    background-color: #232F3C;
+    color: #23A6EF;
+    border: 2px solid #ddd;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-top: -200px;
+}
+
+
 
 
 
