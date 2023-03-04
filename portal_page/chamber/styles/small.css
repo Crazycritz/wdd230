@@ -90,7 +90,8 @@ header {
 .logo img {
     width: 80px;
     height: auto;
-    margin-left: 10px;
+    margin-left: 60px;
+    
     
     
     
@@ -105,6 +106,10 @@ header {
 
 .headings h1 {
     font-size: 1.5rem;
+    margin-left: 75px;
+    
+
+    
 }
 
 .m {
@@ -354,7 +359,7 @@ nav {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
     background-color: #232F3C;
     width: 275px;
-    margin-left: -250px;
+    margin-left: -270px;
     border: 2px solid #23A6EF;
      
     
@@ -430,79 +435,96 @@ nav {
     width: 10px;
 }
 
-.pic-content{
-    margin-top: 50px;
+.pic-content {
+    margin-top: 75px;
     grid-column: 1/4;
-    grid-row: 1/7;
+    grid-row: 1/2;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 450px 350px 300px 350px 350px ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 450px 350px 350px 350px 350px ;
+    margin-left: 20px;
+    column-gap: 10px;
+
+
+}
+
+.pic-content h3 {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.pic-content p {
+    color: #eee;
+    font-size: 1.2em;
+
 }
 
 
-.pic-content picture:hover {box-shadow: 0 0 50px #23A6EF;}
-
-.pic1{
+.pic1 {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 100%;
+   
     
+
 }
 
-.pic2{
+.pic2 {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
 }
 
-.pic3{
+.pic3 {
     grid-column: 1/2;
     grid-row: 3/4;
     width: 100%;
 }
 
-.pic4{
+.pic4 {
     grid-column: 1/2;
     grid-row: 4/5;
     width: 100%;
 }
 
-.pic5{
+.pic5 {
     grid-column: 1/2;
     grid-row: 5/6;
     width: 100%;
 }
 
-.nahoon{
+.nahoon {
    
     grid-column: 2/3;
     grid-row: 1/2;
 }
 
-.hall{
+.hall {
     grid-column: 2/3;
     grid-row: 2/3;
-  
+    
 
 }
 
-.museum{
+.museum {
     grid-column: 2/3;
     grid-row: 3/4;
    
 }
 
-.harbour{
+.harbour {
     grid-column: 2/3;
     grid-row: 4/5;
- 
+   
 
 }
 
-.mall{
+.mall {
     grid-column: 2/3;
     grid-row: 5/6;
-  
+   
 
 }
 
@@ -626,7 +648,7 @@ input {
 
 }
 
-.level{
+#level{
     margin-bottom: 5px;
     text-decoration: underline;
 }
@@ -641,6 +663,125 @@ button{
     margin-top: -200px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    max-width: 800px;
+    background-color: #eee;
+    display: flow-root;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menu {
+    margin: 1rem auto;
+   
+    padding: 0.5rem;
+   
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+   
+
+}
+
+.menu button {
+    padding: 1rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+article,
+section {
+    margin: 0.5rem;
+}
+
+.cards section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #ccc;
+    height: 300px;
+    font-size: 0.8em;
+    
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: center;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: center;
+}
+
+.grid section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid section > * {
+    margin: 0.1rem;
+}
+
+.grid h3 {
+    font-family: "Caveat", cursive;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    height: 120px;
+}
+
+
+
+.list section img {
+    display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+    font-size: 1rem;
+   
+}
+
+.list section:nth-child(even) {
+    background-color: #23A6EF;
+}
+
+section h3 {
+    font-size: 1.5rem;
+}
+
+section a {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+img {
+    height: 75px;
+    max-width: 100%; /* Images are jerks - Seattle*/
+}
 
 
 

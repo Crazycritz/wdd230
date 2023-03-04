@@ -89,8 +89,8 @@
     .logo {
         display: flex;
         align-items: center;
-        margin-left: 1rem;
-        margin-left: 70px;
+        
+        margin-left: 125px;
 
     }
 
@@ -354,6 +354,7 @@
     nav {
         margin: 0 auto;
         margin-left: 120px;
+        
 
 
     }
@@ -362,6 +363,7 @@
         list-style: none;
         margin: 0;
         padding: 0;
+      
 
 
     }
@@ -388,7 +390,7 @@
         font-weight: 700;
         transition: 0.5s;
         font-size: clamp(1rem, 2vmin, 1.5rem);
-        margin-left: -300px;
+        margin-left: -270px;
         background-color: #232F3C;
         width: 375px;
 
@@ -403,14 +405,16 @@
 
     #menu::before {
         content: "≡";
-        font-size: 1.5rem;
+        font-size: 1rem;
+        text-align: left;
+        
     }
 
     .navigation a:hover,
     .navigation a:active {
         color: #232F3C;
         background-color: #23A6EF;
-        width: 15px;
+        width: 30px;
 
 
 
@@ -669,7 +673,7 @@
 
     }
 
-    .level{
+    #level{
         margin-bottom: 5px;
         text-decoration: underline;
     }
@@ -682,6 +686,125 @@
         font-size: 1.5em;
         padding: 10px;
         margin-top: -200px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .main {
+        margin: 0 auto;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        max-width: 800px;
+        background-color: #eee;
+        display: flow-root;
+        grid-column: 1/4;
+        grid-row: 1/4;
+        margin-top: 50px;
+    }
+    
+    .menu {
+        margin: 1rem auto;
+       
+        padding: 0.5rem;
+       
+        text-align: center;
+        margin-top: 20px;
+       
+
+    }
+    
+    .menu button {
+        padding: 1rem;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    article,
+    section {
+        margin: 0.5rem;
+    }
+    
+    .cards section {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: #ccc;
+        height: 300px;
+        
+        
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        align-items: center;
+        
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        align-items: center;
+    }
+    
+    .grid section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .grid section > * {
+        margin: 0.1rem;
+    }
+    
+    .grid h3 {
+        font-family: "Caveat", cursive;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+        height: 100px;
+    }
+    
+    .list section > * {
+        margin: 0 1rem;
+    }
+    
+    .list section img {
+        display: none; /* smaller viewports only */
+    }
+    
+    .list section h3 {
+        font-size: 1rem;
+       
+    }
+    
+    .list section:nth-child(even) {
+        background-color: #23A6EF;
+    }
+    
+    section h3 {
+        font-size: 1.5rem;
+    }
+    
+    section a {
+        font-family: "Roboto", Arial, sans-serif;
+        font-size: 0.9rem;
+    }
+    
+    img {
+        height: 75px;
+        max-width: 100%; /* Images are jerks - Seattle*/
     }
 
 

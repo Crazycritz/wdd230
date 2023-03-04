@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="The Discover Page for Momentum Chamber of Commerce" />
+    <meta name="Description" content="The Directory page for Momentum Chamber of Commerce" />
     <link rel="stylesheet" href="styles/large.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/small.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet" />
-    <title>Discover</title>
+    <title>Directory</title>
 </head>
-
 <body>
     <div class="banner">
         <div class="banner__content">
@@ -26,6 +24,7 @@
             <button class="banner__close">X</button>
         </div>
     </div>
+
     <header>
         <div class="logo">
             <figure><img src="images/logo.webp" alt="The world logo"
@@ -39,7 +38,7 @@
                 <ul class="navigation">
                     <li><a id="menu" href="#"></a></li>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="discover.html">Discover</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="index.html">Contact</a></li>
                 </ul>
@@ -103,96 +102,13 @@
         <div class="date"></div>
     </header>
 
-    <main>
-
-        <p class="num-visit"><span>Number of days since last visit: </span><span id="days"></span></p>
-
-        <div class="pic-content">
-            <picture class="pic1">
-                <img class="hero-img" src="images/300.png" alt="Nahoon Beach"
-                    data-srcset="images/beach150.jpg 400w, images/beach250.jpg 600w, images/beach350.jpg 800w, images/beach.jpg 1000w"
-                    data-src="images/beach.jpg" />
-               
-            </picture>
-            
-
-
-            <picture class="pic2">
-                <img class="hero-img" src="images/300.png" alt="Town Hall Beach"
-                    data-srcset="images/hall150.jpg 400w, images/hall250.jpg 600w, images/hall350.jpg 800w, images/hall.jpg 1000w"
-                    data-src="images/hall.jpg" />
-               
-            </picture>
-
-            <picture class="pic3">
-                <img class="hero-img" src="images/300.png" alt="Museum"
-                    data-srcset="images/museum150.jpg 400w, images/museum250.jpg 600w, images/museum350.jpg 800w, images/musuem.jpg 1000w"
-                    data-src="images/museum.jpg" />
-                
-            </picture>
-
-            <picture class="pic4">
-                <img class="hero-img" src="images/300.png" alt="Harbour"
-                    data-srcset="images/harbour150.jpg 400w, images/harbour250.jpg 600w, images/harbour350.jpg 800w, images/harbour.jpg 1000w"
-                    data-src="images/harbour.jpg" />
-                
-            </picture>
-
-            <picture class="pic5">
-                <img class="hero-img" src="images/300.png" alt="Hemingways Mall"
-                    data-srcset="images/hemingways150.jpg 400w, images/hemingways250.jpg 600w, images/hemingways350.jpg 800w, images/hemingways.jpg 1000w"
-                    data-src="images/hemingways.jpg" />
-                
-            </picture>
-
-            <div class="nahoon">
-                <h3>Nahoon Beach</h3>
-                <p>Nahoon beach is a surfer’s and swimmer’s paradise and is arguably East London’s most popular beach -
-                    we’re talking kilometres of (mostly) uncrowded and unpolluted sand and sea that produces some of the
-                    best waves, particularly at the famous Nahoon reef where surfing can be fairly tough, hence its
-                    having served as a venue for many of the national surfing competitions. It is a popular tourist
-                    attraction as well.</p>
-            </div>
-
-            <div class="hall">
-                <h3>Town Hall</h3>
-                <p>In 1897, the magnificent City Hall (as it is known today) was built between Oxford Street and Argyle
-                    Street. It has a distinctive Victorian architectural style. Its dark oxblood walls are juxtaposed by
-                    stark white columns and romantic, if bold, arched windows. It is the heart of the city and home of
-                    the mayor.</p>
-            </div>
-
-            <div class="museum">
-                <h3>Museum</h3>
-                <p>The East London Museum houses all the history of our city. It pays tribute to the prehistoric
-                    Coelacanth Fish which was found off our coast. It was established in 1921. It has many cool
-                    histoical items that many love to see and enjoy.
-                </p>
-            </div>
-
-            <div class="harbour">
-                <h3>Harbour</h3>
-                <p>The harbour is the life of the city. It was reason for our city even beginning in the first place.
-                    Major imports and exports go through the harbour. The harbour is actually in the Buffalo River, only
-                    because the depth of the river allows for it. Without the harbour a great deal of business would be
-                    lost in our city.</p>
-            </div>
-
-            <div class="mall">
-                <h3>Hemingways Mall</h3>
-                <p>The Hemingways Mall is the major shopping centre of East London. It stretches for miles, has multiple
-                    floors and facilitates major business within our city. It has a wide variety of things from food
-                    courts to cinemas and much more.</p>
-            </div>
-
-
-
-
+    <main class="main">
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
         </div>
-
-
-
-
+        <hr>
+        <div class="cards"></div>
     </main>
 
     <footer>
@@ -222,9 +138,10 @@
         </section>
     </footer>
     <script src="scripts/date.js"></script>
-    <script src="scripts/visits.js"></script>
-    <script src="scripts/lazy-loading.js"></script>
+    <script src="scripts/data.js"></script>
 
+   
+
+    
 </body>
-
 </html>

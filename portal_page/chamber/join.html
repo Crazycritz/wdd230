@@ -16,7 +16,17 @@
 </head>
 
 <body>
-    
+    <div class="banner">
+        <div class="banner__content">
+            <div class="banner__text">
+                <h2>
+                    Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+                </h2>
+            </div>
+            <button class="banner__close">X</button>
+        </div>
+    </div>
+
     <header>
         <div class="logo">
             <figure><img src="images/logo.webp" alt="The world logo"
@@ -31,14 +41,14 @@
                     <li><a id="menu" href="#"></a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="index.html">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="index.html">Contact</a></li>
                 </ul>
             </nav>
             <div class="social">
                 <a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1"
                         version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve"
-                        xmlns="http://www.w3.org/2000/svg" >
+                        xmlns="http://www.w3.org/2000/svg">
                         <g>
                             <path
                                 d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
@@ -54,8 +64,7 @@
                 stroke-linejoin: round;
                 stroke-miterlimit: 2;
               " version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
-                        xmlns="http://www.w3.org/2000/svg" 
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g>
                             <path
                                 d="M448,512l-384,0c-35.328,0 -64,-28.672 -64,-64l0,-384c0,-35.328 28.672,-64 64,-64l384,0c35.328,0 64,28.672 64,64l0,384c0,35.328 -28.672,64 -64,64Z"
@@ -71,8 +80,7 @@
                 stroke-linejoin: round;
                 stroke-miterlimit: 2;
               " version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="g5891">
                             <path
                                 d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z"
@@ -95,29 +103,32 @@
     </header>
 
     <main>
-       
+
         <form action="thankyou.html" method="get">
             <h1 class="message">📧Sign Up</h1>
             <label for="firstname">*First Name:<input type="text" id="firstname" name="firstname" required
                     placeholder="Your first name" /></label>
             <label for="lastname">*Last Name:<input type="text" id="lastname" name="lastname" required
                     placeholder="Your last name" /></label>
-            <label for="title">Postion Title:<input type="text" id="title" name="title" pattern="[a-zA-Z0-9\s-]{7,}" /></label>
+            <label for="title">Postion Title:<input type="text" id="title" name="title"
+                    pattern="[a-zA-Z0-9\s-]{7,}" /></label>
             <label for="email">*Email:<input type="email" id="email" name="email" required
                     placeholder="yourbusiness@gmail.com" /></label>
             <label for="phone">*Phone:<input type="tel" id="phone" name="phone" required /></label>
             <label for="business">*Business Name:<input type="text" id="business" name="business" required></label>
 
-            <label for="level" class="level">Membership Level</label>
-            <label for="np">NP(Non-profit)<input type="radio" id="np" name="membership" value="NP (non profit organisation)"></label>
-            <label for="bronze">Bronze<input type="radio" id="bronze" name="membership" value="Bronze"></label>
-            <label for="silver">Silver<input type="radio" id="silver" name="membership" value="Silver"></label>
-            <label for="gold">Gold<input type="radio" id="gold" name="membership" value="Gold"></label>
+            <p>Membership Level</p>
+            <br>
+            <label for="np">Non-profit(discounts)<input type="radio" id="np" name="membership"
+                    value="NP (non profit organisation)"></label>
+            <label for="bronze">Bronze(training, discounts)<input type="radio" id="bronze" name="membership" value="Bronze"></label>
+            <label for="silver">Silver(training, advertising and discounts)<input type="radio" id="silver" name="membership" value="Silver"></label>
+            <label for="gold">Gold(training,advertising and greater discounts)<input type="radio" id="gold" name="membership" value="Gold"></label>
 
             <label for="description">Business Description:<textarea id="description" name="description" rows="6"
                     cols="40"></textarea></label>
 
-            <label for="date"><input id="hidden" type="hidden" value="43aster"></label>
+            <input type="hidden" value="43aster">
 
             <label for="submit"><button id="submit" type="submit">Join Us</button></label>
 
@@ -132,7 +143,7 @@
         <section class="row1">
             <div class="logo2">
                 <figure><img src="images/logo.webp" alt="The world logo"
-                    srcset="images/75.webp 1x, images/150.webp 2x, images/225.webp 3x" /></figure>
+                        srcset="images/75.webp 1x, images/150.webp 2x, images/225.webp 3x" /></figure>
                 <section class="address">
                     <h2>Momentum Chamber of Commerce</h2>
                     <p>10 Garcia Street</p>
