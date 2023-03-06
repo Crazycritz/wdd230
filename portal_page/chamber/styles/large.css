@@ -18,37 +18,7 @@
         background-color: #232F3C;
     }
 
-    .banner {
-        background: #23A6EF;
-        display: none;
-    }
-
-    .banner__content {
-        padding: 16px;
-        max-width: 1000px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-
-    }
-
-    .banner__text {
-        flex-grow: 1;
-        line-height: 1.4;
-        font-size: 0.75em;
-
-    }
-
-    .banner__close {
-        background: none;
-        border: none;
-        cursor: pointer;
-    }
-
-    .banner__text h2,
-    .banner__close {
-        color: #232F3C;
-    }
+   
 
     h1,
     h2,
@@ -408,7 +378,7 @@
     .hero-img {
         height: 55%;
         width: 100%;
-        max-width: 900px;
+        object-fit: cover;
         
 
 
@@ -777,6 +747,51 @@
     img {
         height: 75px;
         max-width: 100%; /* Images are jerks - Seattle*/
+    }
+
+
+    .banner {
+        background: #23A6EF;
+        display: none;
+        
+    }
+
+    .banner__content {
+        padding: 16px;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        
+        
+
+    }
+
+    .banner__text {
+        flex-grow: 1;
+        line-height: 1.4;
+        font-size: 0.75em;
+        
+        
+        
+
+    }
+
+    .banner__close {
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin-top: 15px;
+        font-size: 2em;
+        
+        margin: 0 auto;
+        
+       
+    }
+
+    .banner__text h2,
+    .banner__close {
+        color: #232F3C;
     }
 
     
