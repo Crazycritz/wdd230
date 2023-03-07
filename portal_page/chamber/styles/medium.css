@@ -76,6 +76,13 @@
 
     h2 {
         font-size: 2em;
+        color: #232F3C;
+        text-decoration: underline;
+    }
+
+    h3{
+        color: #232F3C;
+        text-shadow: 1px 1px #23A6EF;
     }
 
     header {
@@ -114,6 +121,8 @@
 
     .headings h1 {
         font-size: 2rem;
+        color: #232F3C;
+        text-shadow: 2px 2px #23A6EF;
     }
 
     .m {
