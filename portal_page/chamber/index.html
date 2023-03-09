@@ -123,11 +123,14 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <section>
-                <h3>Partly Cloudy <span id="temp">10</span>°C</h3>
-            </section>
-            <p>Wind Speed: <span id="speed">6</span>km/h</p>
-            <p id="chill">Wind Chill: N/A</p>
+            <p><span id="current-temp"></span> &deg;F</p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <br>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
+            <p id="chill"></p>
         </div>
         <div class="join">
             <button class="join-us">Join Us!</button>
@@ -211,6 +214,7 @@
     </footer>
     <script src="scripts/date.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weatherapi.js"></script>
 </body>
 
 </html>

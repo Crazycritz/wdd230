@@ -794,6 +794,14 @@ img {
 }
 
 
+figcaption{
+    color: #23A6EF;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+
 
 
 }
