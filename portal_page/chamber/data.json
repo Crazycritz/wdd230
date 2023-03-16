@@ -2,7 +2,7 @@
   "prophets": [
     {
       "name": "IDWEB",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/web150.png",
       "address": "2115 Vista Avenue Boise ID 837054",
       "number": "(208) 243-9386",
       "link": "http://idahowebsites.com/",
@@ -10,7 +10,7 @@
     },
     {
       "name": "SURGE",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/surge150.png",
       "address": "4072 Arch Drive Meridian ID 83464",
       "number": "(208) 631-0640",
       "link": "http://www.surgewebdesign.com/",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Graphiczen",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/graphic150.png",
       "address": "21788 Summerplace Court Meridian ID 83646",
       "number": "(208) 631-4986",
       "link": "http://graphiczen.com/",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Peppershock",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/peppershock150.png",
       "address": "1215 3rd Steet Nampa ID 83651",
       "number": "(208) 461-5070",
       "link": "http://www.peppershock.com/",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Flash Tech",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/flash150.png",
       "address": "Star Idaho 83669",
       "number": "(208) 488-5810",
       "link": "http://flashtechservices.com/",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Metro Express",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/metro150.png",
       "address": "1725 Overland Road Meridian ID 83642",
       "number": "(208) 888-4073",
       "link": "http://www.metroexpress.com/",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Red Alert",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/red150.png",
       "address": "2197 Station Road",
       "number": "(208) 863-9382",
       "link": "http://redalert.com/",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Xerox",
-      "imageurl": "images/powerade200.jpg",
+      "imageurl": "images/xerox150.png",
       "address": "911 Tait St",
       "number": "(208) 243-9512",
       "link": "http://xerox.com/",

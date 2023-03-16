@@ -758,10 +758,11 @@ section {
 
 .list section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0;
     padding: 0.25rem;
     height: 120px;
+    min-width: 400px;
 }
 
 
@@ -799,6 +800,18 @@ figcaption{
     font-weight: bold;
     text-decoration: underline;
     font-size: 1em;
+}
+
+.contact-page{
+    grid-row: 1/3;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+.contact-page h3{
+    font-size: 1.5em;
 }
 
 

@@ -16,12 +16,16 @@ const displayProphets = (prophets) => {
     let portrait = document.createElement("img");
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
+    let p3 = document.createElement("p");
+    let p4 = document.createElement("p");
     let a = document.createElement("a");
 
     // Build the h2 content out to show the prophet's full name - finish the template string
 
     p1.textContent = prophet.address;
     p2.textContent = prophet.number;
+    p3.textContent = prophet.name;
+    p4.textContent = prophet.membership;
     a.textContent = prophet.link;
 
     // Build the image portrait by setting all the relevant attribute
@@ -33,6 +37,8 @@ const displayProphets = (prophets) => {
 
     // Append the section(card) with the created elements
     card.appendChild(portrait);
+    card.appendChild(p3);
+    card.appendChild(p4);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(a);
