@@ -100,13 +100,19 @@
     .social {
         margin-right: 1.5rem;
         margin-left: -10px;
+        text-decoration: none;
 
 
     }
 
-    .social svg {
-        width: 25px;
-        height: auto;
+    .social a{
+        text-decoration: none;
+    }
+
+    .social img {
+        width: 50px;
+       
+        text-decoration: none;
     }
 
     main {

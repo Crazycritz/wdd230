@@ -83,7 +83,7 @@ header {
     background-color: #fff;
     padding: 5px 0;
     align-items: center;
-    
+   
     border: 5px solid #23A6EF;
 }
 
@@ -98,7 +98,8 @@ header {
 .logo img {
     width: 80px;
     height: auto;
-    margin-left: 60px;
+    margin-left: 100px;
+    
     
     
     
@@ -108,8 +109,9 @@ header {
 .headings {
     display: flex;
     flex-direction: column;
-    margin-left: -40px;
+    margin-left: -20px;
     text-shadow: 2px 2px black;
+   
 }
 
 .headings h1 {
@@ -130,13 +132,18 @@ header {
 }
 
 .social{
-    margin-left: 37px;
+    display: inline-block;
+    margin-left: -75px;
 }  
     
-.social svg {
-    width: 25px;
-    height: auto;
+.social a{
+    text-decoration: none;
+}
+
+.social img {
+    width: 20px;
    
+    text-decoration: none;
 }
 
 main {

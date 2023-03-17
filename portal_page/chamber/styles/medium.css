@@ -138,9 +138,13 @@
 
     }
 
-    .social svg {
-        width: 25px;
-        height: auto;
+    .social a{
+        text-decoration: none;
+    }
+
+    .social img {
+        width: 55px;
+        text-decoration: none;
     }
 
     main {
