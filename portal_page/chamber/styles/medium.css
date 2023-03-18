@@ -419,12 +419,16 @@
 
     }
 
+  
+
     #menu::before {
         content: "≡";
         font-size: 1rem;
         text-align: left;
         
     }
+
+    
 
     .navigation a:hover,
     .navigation a:active {
