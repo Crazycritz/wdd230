@@ -389,6 +389,10 @@
         display: flex;
     }
 
+    #menu{
+        display: none;
+    }
+
 
     .hero-img {
         height: 55%;
