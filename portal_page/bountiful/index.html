@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="The home page for Bountiful Foods" />
+    <link rel="stylesheet" href="styles/small.css">
+    <title>Bountiful Food Home Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <figure><img src="images/logo.png" alt="Bountiful Foods Logo" /></figure>
+            <h2>Bountiful Foods</h2>
+        </div>
+
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linked.png" alt="linkedin icon">
+            </a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="hero">
+            <picture>
+                <img class="hero-img" src="images/hero.jpg" alt="Hero Image" />
+            </picture>
+
+        </div>
+
+        <div class="weather">
+            <h2>Weather</h2>
+            <div class="today">
+                <h3>Today</h3>
+                <p>Temp:<span id="current-temp"></span> &deg;F</p>
+                <p>Humidity:<span id="current-humidity"></span> %</p>
+                <figure>
+                    <img src="images/300.png" alt="weather smybol" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+
+
+            </div>
+
+            <h2>Temperature Forecast</h2>
+
+            <div class="tomorrow">
+                <h3>Tomorrow</h3>
+                <p><span id="current-temp2"></span> &deg;F</p>
+            </div>
+
+            <div class="two-days">
+                <h3>2 Days Time</h3>
+                <p><span id="current-temp3"></span> &deg;F</p>
+            </div>
+
+            <div class="three-days">
+                <h3>3 Days Time</h3>
+                <p><span id="current-temp4"></span> &deg;F</p>
+            </div>
+        </div>
+
+
+        <div class="summary">
+            <h2>Carlsbad</h2>
+            <picture>
+                <img class="summary-img" src="images/carlsbad.png" alt="Carlsbad Image" />
+            </picture>
+            <p>Lorem ipsum dolor sit amet. Ea ipsum tempora et nobis porro et fugiat dolorum et voluptas praesentium et
+                debitis dolores aut inventore doloribus. In dolore odio et consequatur nobis est repellat asperiores! Ut
+                dolor quam et omnis temporibus sit aperiam molestiae. Non facere reprehenderit id unde voluptates sit
+                consectetur maiores ut iste tenetur non aspernatur consequatur.</p>
+        </div>
+
+        <div class="call">
+            <button type="button">
+                <h1>Call to Action</h1>
+            </button>
+            <picture>
+                <img class="call-img" src="images/smoothie.jpg" alt="Smoothie Image" />
+            </picture>
+            <p>Lorem ipsum dolor sit amet. Ea ipsum tempora et nobis porro et fugiat dolorum et voluptas praesentium et
+                debitis dolores aut inventore doloribus. In dolore odio et consequatur nobis est repellat asperiores! Ut
+                dolor quam et omnis temporibus sit aperiam molestiae. Non facere reprehenderit id unde voluptates sit
+                consectetur maiores ut iste tenetur non aspernatur consequatur.</p>
+        </div>
+
+
+        <div class="information">
+            <h2>Information</h2>
+            <p>This is how many drinks you have enjoyed from us so far:<span id="num-drinks"></span></p>
+
+        </div>
+
+
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="logo2">
+            <figure><img src="images/logo.png" alt="Bountiful Foods Logo" /></figure>
+            <h2>Bountiful Foods</h2>
+        </div>
+
+        <div class="address">
+            <p>10 Garcia Street</p>
+            <p>Cambridge, East London 5247</p>
+        </div>
+
+
+        <div class="contact">
+            <p>BountifulFoods@gmail.com</p>
+            <p>(+27)794 928 612</p>
+            <a href="https://goo.gl/maps/Em9mSafYdCvCVv147"><img class="map" src="images/map.png" alt="pin icon" />
+                Location
+                Map</a>
+        </div>
+
+        <section class="details">
+            <p>&copy;2023 Bountiful Foods | Joshua Mostert | WDD 230 Final Project </p>
+            <br>
+            <div id="lastModified"></div>
+        </section>
+
+    </footer>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/modified.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
+
+</body>
+
+</html>
