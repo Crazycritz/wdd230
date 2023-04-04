@@ -425,4 +425,12 @@
     
     .call a{
         text-decoration: none;
-    }}
+    }
+
+    .fruits-banner {
+        width: 100%;
+        max-width: 1600px;
+    }
+
+
+}

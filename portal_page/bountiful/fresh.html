@@ -15,7 +15,8 @@
 <body>
     <header>
         <div class="logo">
-            <figure><img src="images/logo.png" alt="Bountiful Foods Logo" /></figure>
+            <figure><img src="images/logo.webp" alt="The Bountiful Foods logo"
+                srcset="images/logo75.webp 1x, images/logo150.webp 2x, images/logo225.webp 3x" /></figure>
             <h2>Bountiful Foods</h2>
         </div>
 
@@ -42,6 +43,15 @@
 
 
     <main>
+        <div class="banner">
+            <picture>
+                <source media="(max-width:600px)" srcset="images/fruits600.jpeg" />
+                <source media="(max-width:800px)" srcset="images/fruits800.jpeg" />
+                <source media="(max-width:1000px)" srcset="images/fruits1000.jpeg" />
+                <img class="fruits-banner" src="images/fruits.jpeg" alt="Hero Image" />
+            </picture>
+            
+        </div>
         <div class="content2">
             <form id="form">
                 <fieldset>
@@ -130,7 +140,8 @@
 
     <footer>
         <div class="logo2">
-            <figure><img src="images/logo.png" alt="Bountiful Foods Logo" /></figure>
+            <figure><img src="images/logo.webp" alt="The Bountiful Foods logo"
+                srcset="images/logo75.webp 1x, images/logo150.webp 2x, images/logo225.webp 3x" /></figure>
             <h2>Bountiful Foods</h2>
         </div>
 
@@ -158,6 +169,7 @@
     <script src="scripts/nav.js"></script>
     <script src="scripts/modified.js"></script>
     <script src="scripts/drink.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
 
 
 </body>

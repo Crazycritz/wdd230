@@ -15,7 +15,8 @@
 <body>
     <header>
         <div class="logo">
-            <figure><img src="images/logo.png" alt="Bountiful Foods Logo" /></figure>
+            <figure><img src="images/logo.webp" alt="The Bountiful Foods logo"
+                srcset="images/logo75.webp 1x, images/logo150.webp 2x, images/logo225.webp 3x" /></figure>
             <h2>Bountiful Foods</h2>
         </div>
 
@@ -44,7 +45,10 @@
     <main>
         <div class="hero">
             <picture>
-                <img class="hero-img" src="images/hero.jpg" alt="Hero Image" />
+                <source media="(max-width:600px)" srcset="images/hero600.jpg"  />
+                <source media="(max-width:800px)" srcset="images/hero800.jpg" />
+                <source media="(max-width:1000px)" srcset="images/hero1000.jpg" />
+                <img class="hero-img" src="images/hero.jpg" alt="Hero Image"/>
             </picture>
 
         </div>
@@ -88,8 +92,12 @@
         <div class="summary">
             <h2>Carlsbad</h2>
             <picture>
-                <img class="summary-img" src="images/carlsbad.png" alt="Carlsbad Image" />
+                <source media="(max-width:600px)" srcset="images/carlsbad600.png" loading="lazy"  />
+                <source media="(max-width:800px)" srcset="images/carlsbad800.png" loading="lazy"  />
+                <source media="(max-width:1000px)" srcset="images/carlsbad1000.png" loading="lazy"   />
+                <img class="summary-img" src="images/carlsbad.png" alt="Carlsbad Image" loading="lazy"  />
             </picture>
+            
             <p>Lorem ipsum dolor sit amet. Ea ipsum tempora et nobis porro et fugiat dolorum et voluptas praesentium et
                 debitis dolores aut inventore doloribus. In dolore odio et consequatur nobis est repellat asperiores! Ut
                 dolor quam et omnis temporibus sit aperiam molestiae. Non facere reprehenderit id unde voluptates sit
@@ -101,7 +109,10 @@
                 <a href="fresh.html"><h1>Make Your Drink Now</h1></a>
             </button>
             <picture>
-                <img class="call-img" src="images/smoothie.jpg" alt="Smoothie Image" />
+                <source media="(max-width:400px)" srcset="images/smoothie400.jpg" loading="lazy"  />
+                <source media="(max-width:600px)" srcset="images/smoothie600.jpg" loading="lazy"  />
+                <source media="(max-width:800px)" srcset="images/smoothie800.jpg" loading="lazy"  />
+                <img class="call-img" src="images/smoothie.jpg" alt="Smoothie Image" loading="lazy" />
             </picture>
             <p>Lorem ipsum dolor sit amet. Ea ipsum tempora et nobis porro et fugiat dolorum et voluptas praesentium et
                 debitis dolores aut inventore doloribus. In dolore odio et consequatur nobis est repellat asperiores! Ut
@@ -125,7 +136,8 @@
 
     <footer>
         <div class="logo2">
-            <figure><img src="images/logo.png" alt="Bountiful Foods Logo" /></figure>
+            <figure><img src="images/logo.webp" alt="The Bountiful Foods logo"
+                srcset="images/logo75.webp 1x, images/logo150.webp 2x, images/logo225.webp 3x" /></figure>
             <h2>Bountiful Foods</h2>
         </div>
 
@@ -155,6 +167,7 @@
     <script src="scripts/weather.js"></script>
     <script src="scripts/forecast.js"></script>
     <script src="scripts/num.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
 
 </body>
 
