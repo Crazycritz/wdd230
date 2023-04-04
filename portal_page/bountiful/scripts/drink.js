@@ -9,7 +9,6 @@ async function getFruitData() {
 }
 
 const display = (fruits) => {
-
   let carbs = 0;
   let protein = 0;
   let fat = 0;
@@ -93,35 +92,79 @@ const display = (fruits) => {
   const cards = document.querySelector("div.cards");
   let card = document.createElement("section");
 
+  const date = new Date();
+  const current_date =
+    date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate();
+
+  let heading1 = document.createElement("h2");
+  let heading2 = document.createElement("h2");
+  let fname = document.createElement("p");
+  let email = document.createElement("p");
+  let phone = document.createElement("p");
+  let option1 = document.createElement("p");
+  let option2 = document.createElement("p");
+  let option3 = document.createElement("p");
+  let desc = document.createElement("p");
+  let order = document.createElement("p");
+
   let p1 = document.createElement("p");
   let p2 = document.createElement("p");
   let p3 = document.createElement("p");
   let p4 = document.createElement("p");
   let p5 = document.createElement("p");
- 
 
   // Build the h2 content out to show the prophet's full name - finish the template string
 
-  p1.textContent = 'Total carbohydrates: ' + carbs;
-  p2.textContent = 'Total protein: ' + protein;
-  p3.textContent = 'Total fat: ' + fat;
-  p4.textContent = 'Total sugar: ' + sugar;
-  p5.textContent = 'Total calories: ' + calories;
+  p1.textContent = "Total carbohydrates: " + carbs + "g";
+  p2.textContent = "Total protein: " + protein + "g";
+  p3.textContent = "Total fat: " + fat + "g";
+  p4.textContent = "Total sugar: " + sugar + "g";
+  p5.textContent = "Total calories: " + calories;
 
- 
+  heading1.textContent =
+    "Thanks for filling out the form for your drink, below is the output of the info you entered:";
+  fname.textContent =
+    "Your firstname: " + document.querySelector("#fname").value;
+  email.textContent = "Your email: " + document.querySelector("#email").value;
+  phone.textContent = "Your number: " + document.querySelector("#phone").value;
+  option1.textContent = "Option 1: " + text;
+  option2.textContent = "Option 2: " + text2;
+  option3.textContent = "Option 3: " + text3;
+  desc.textContent =
+    "Drink description: " + document.querySelector("#desc").value;
+  order.textContent = "The date of your order: " + current_date;
+
+  heading2.textContent =
+    "The total nutrients and calories for your ordered drink are: ";
+
   // Append the section(card) with the created elements
+  card.appendChild(heading1);
+  card.appendChild(fname);
+  card.appendChild(email);
+  card.appendChild(phone);
+  card.appendChild(option1);
+  card.appendChild(option2);
+  card.appendChild(option3);
+  card.appendChild(desc);
+  card.appendChild(order);
 
-  
+  card.appendChild(heading2);
   card.appendChild(p1);
   card.appendChild(p2);
   card.appendChild(p3);
   card.appendChild(p4);
   card.appendChild(p5);
-  
-
   cards.appendChild(card);
+
   document.getElementById("form").style.display = "none";
   document.getElementById("button").style.display = "none";
+
+  let attempts = localStorage.getItem("attempts");
+  localStorage.setItem("attempts",++attempts);
+  console.log(attempts);
+  
+
+  
 };
 
 document.querySelector("#button").addEventListener("click", getFruitData);

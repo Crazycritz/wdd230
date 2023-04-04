@@ -302,3 +302,49 @@ textarea {
     height: 100px;
 }
 
+form select{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.content2 h2{
+    color: #061726;
+    text-shadow: 2px 2px #71E2C2;
+
+}
+
+.cards{
+    border: 5px solid #061726;
+    
+}
+
+#map-location{
+    width: 2rem;
+    
+}
+
+.find-us{
+    margin: 20px;
+}
+
+.content3 h2, h3{
+    color: #061726;
+    text-shadow: 2px 2px #71E2C2;
+
+}
+
+.history{
+    border: 5px solid #061726;
+}
+
+.contact-page{
+    border: 5px solid #061726;
+}
+
+.content3{
+    margin:20px;
+}
+
+
+
+
