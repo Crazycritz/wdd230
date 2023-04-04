@@ -378,4 +378,8 @@
     .call a {
         text-decoration: none;
     }
+
+    .fruits-banner {
+        width: 100%;
+    }
 }
