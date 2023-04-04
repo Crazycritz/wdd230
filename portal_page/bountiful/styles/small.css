@@ -78,7 +78,7 @@ nav {
 }
 
 .navigation a:hover,
-navigation a:active {
+.navigation a:active {
     color: white;
     background-color: black;
 }
@@ -298,12 +298,16 @@ form label.top input:required:valid {
 
 textarea {
     width: 90%;
-    max-width: 250px ;
+    
     height: 100px;
+    display: block;
+    
 }
 
 form select{
     padding: 15px;
+    display: block;
+    margin: 0 auto;
     margin-top: 10px;
 }
 
@@ -343,6 +347,18 @@ form select{
 
 .content3{
     margin:20px;
+}
+
+#button{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #71E2C2;
+    color: #061726;
+}
+
+.call a{
+    text-decoration: none;
 }
 
 

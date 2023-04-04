@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="The home page for Bountiful Foods" />
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <title>Bountiful Foods Home Page</title>
 </head>
 
@@ -21,7 +23,7 @@
         <nav>
             <ul class="navigation">
                 <li><a href="fresh.html">Fresh</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
             </ul>
         </nav>
 
@@ -48,8 +50,9 @@
         </div>
 
         <div class="weather">
-            <h2>Weather</h2>
+            
             <div class="today">
+                <h2>Weather</h2>
                 <h3>Today</h3>
                 <p>Temp:<span id="current-temp"></span> &deg;F</p>
                 <p>Humidity:<span id="current-humidity"></span> %</p>
@@ -58,10 +61,12 @@
                     <figcaption></figcaption>
                 </figure>
 
+                <h2>Temperature Forecast</h2>
+
 
             </div>
 
-            <h2>Temperature Forecast</h2>
+           
 
             <div class="tomorrow">
                 <h3>Tomorrow</h3>
@@ -93,7 +98,7 @@
 
         <div class="call">
             <button type="button">
-                <h1>Call to Action</h1>
+                <a href="fresh.html"><h1>Make Your Drink Now</h1></a>
             </button>
             <picture>
                 <img class="call-img" src="images/smoothie.jpg" alt="Smoothie Image" />
@@ -106,7 +111,7 @@
 
 
         <div class="information">
-            <h2>Information</h2>
+            <h2>Cool Fact!</h2>
             <p>This is how many drinks you have enjoyed from us so far:<span id="num-drinks"></span></p>
 
         </div>
@@ -132,7 +137,7 @@
 
         <div class="contact">
             <p>BountifulFoods@gmail.com</p>
-            <p>(+27)794 928 612</p>
+            <p>(530) 225-4433</p>
             <a href="https://goo.gl/maps/Em9mSafYdCvCVv147"><img class="map" src="images/map.png" alt="pin icon" />
                 Location
                 Map</a>
