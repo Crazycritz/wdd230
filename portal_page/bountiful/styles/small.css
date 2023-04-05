@@ -165,15 +165,7 @@ nav {
 
 }
 
-.call button {
-    background-color: #71E2C2;
-    margin: 30px;
-}
 
-.call h1 {
-    color: #061726;
-
-}
 
 .information {
     background-color: #828C93;
@@ -210,61 +202,67 @@ footer h2 {
 
 }
 
-.contact img{
+.contact img {
     width: 5%;
-    
+
 }
 
-footer{
+footer {
     border: 5px solid black;
 }
 
-#lastModified{
+#lastModified {
     font-weight: bold;
 }
 
-.weather{
+.weather {
     background-color: #061726;
     border: 5px solid black;
 
 }
 
-.weather p{
+.weather p {
     color: white;
 }
 
-figcaption{
+figcaption {
     color: white;
 }
 
-#weather-icon{
+#weather-icon {
     width: 20%;
 }
 
 /* Fresh Page Form */
 form {
-	max-width: 480px;
-	margin: auto;
-	padding: 0.5rem;
-	align-items: center;
+    max-width: 480px;
+    margin: auto;
+    padding: 0.5rem;
+    align-items: center;
 }
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #061726;
     border-radius: 10px;
     padding: .5rem 2%;
 }
+
 form legend {
     margin: 0 1rem;
-    padding: 0 .5rem; 
+    padding: 0 .5rem;
 }
-form label.top, form div {
+
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
     font-size: 1rem;
     text-align: left;
 }
-form label.top input, form label.top select {
+
+form label.top input,
+form label.top select {
     display: block;
     font-size: 1rem;
     border: solid 1px #999;
@@ -272,13 +270,15 @@ form label.top input, form label.top select {
     padding: .75rem;
     width: 85%;
     max-width: 250px;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
 form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #555;
 }
+
 form input.submitBtn {
     border: none;
     background-color: #71E2C2;
@@ -289,67 +289,70 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+
 form label.top input:required {
     border-left: #71E2C2 solid 6px;
 }
+
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
 textarea {
     width: 90%;
-    
+
     height: 100px;
     display: block;
-    
+
 }
 
-form select{
+form select {
     padding: 15px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
 }
 
-.content2 h2{
+.content2 h2 {
     color: #061726;
     text-shadow: 2px 2px #71E2C2;
 
 }
 
-.cards{
+.cards {
     border: 5px solid #061726;
-    
+
 }
 
-#map-location{
+#map-location {
     width: 2rem;
-    
+
 }
 
-.find-us{
+.find-us {
     margin: 20px;
 }
 
-.content3 h2, h3{
+.content3 h2,
+h3 {
     color: #061726;
     text-shadow: 2px 2px #71E2C2;
 
 }
 
-.history{
+.history {
     border: 5px solid #061726;
 }
 
-.contact-page{
+.contact-page {
     border: 5px solid #061726;
 }
 
-.content3{
-    margin:20px;
+.content3 {
+    margin: 20px;
 }
 
-#button{
+#button {
     width: 50%;
     padding: 20px;
     margin: 20px;
@@ -357,7 +360,7 @@ form select{
     color: #061726;
 }
 
-.call a{
+.call a {
     text-decoration: none;
 }
 
@@ -365,6 +368,35 @@ form select{
     width: 100%;
 }
 
+#button:hover {
+    color: #71E2C2;
+    background-color: #061726;
+}
+
+
+.history p {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
 
 
 
+}
+
+.weather h3{
+    color: white;
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+.call a{
+    background-color: #71E2C2;
+    padding: 15px;
+    width: 40%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: #061726;
+}

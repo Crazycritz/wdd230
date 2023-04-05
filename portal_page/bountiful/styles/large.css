@@ -1,4 +1,5 @@
-@media only screen and (min-width: 992px) {@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins&display=swap');
+@media only screen and (min-width: 992px) {
+    @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins&display=swap');
 
 
     :root {
@@ -7,13 +8,13 @@
         --secondary-color: #71E2C2;
         --accent1-color: #828C93;
         --accent2-color: white;
-    
+
         /* change the values below to your chosen font(s) */
         --heading-font: "Bubblegum Sans";
         --paragraph-font: "Poppins", Helvetica, sans-serif;
-    
+
     }
-    
+
     h1,
     h2,
     h3,
@@ -22,279 +23,270 @@
     h6 {
         font-family: var(--heading-font);
         color: #71E2C2;
-    
+
     }
-    
+
     body {
         width: 90%;
         margin: 0 auto;
         text-align: center;
 
-    
+
     }
-    
+
     header {
         background-color: #061726;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         margin-bottom: 5px;
-    
+
     }
 
-    main{
-        margin-bottom: 5px ;
+    main {
+        margin-bottom: 5px;
     }
 
-    .logo{
+    .logo {
         grid-column: 1/2;
     }
 
-    nav{
+    nav {
         background-color: #061726;
         width: 100%;
         margin-top: 40px;
     }
-    
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 100%;
-        
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+
         background-color: #71E2C2;
         text-align: center;
-        
-        
-	}
-	.navigation a {
-		text-align: center;
+
+
+    }
+
+    .navigation a {
+        text-align: center;
         margin: 0;
         border: 2px solid #828C93;
-       
-        
-        
-	}
+
+
+
+    }
 
     .navigation a:hover,
     .navigation a:active {
-    color: #061726;
-    background-color: white;
-}
-	#menu {
-		display: none;
-	}
+        color: #061726;
+        background-color: white;
+    }
 
-    
+    #menu {
+        display: none;
+    }
+
+
     .social img {
         width: 30px;
         margin-top: 60px;
         margin-bottom: 20px;
         border: 2px solid #828C93;
     }
-    
+
     .social a {
         text-decoration: none;
         padding: 15px;
-    
-    
+
+
     }
-    
+
     .logo img {
         width: 100px;
         border: 2px solid #71E2C2;
-        
+
     }
-    
+
     .logo h2 {
         text-shadow: 2px 2px black;
         text-decoration: underline;
         font-size: 2em;
-       
+
     }
-    
-    
+
+
     .hero img {
         width: 100%;
         max-width: 1600px;
-        
+
     }
-    
+
     .summary img {
         width: 80%;
         border-radius: 5%;
         border: 2px solid black;
         max-width: 800px;
     }
-    
+
     .summary {
         border: 5px solid black;
         background-color: #71E2C2;
     }
-    
+
     .summary p {
         width: 70%;
         margin: 0 auto;
         padding: 20px;
         color: #061726;
         font-size: 2em;
-    
+
     }
-    
+
     .summary h2 {
         color: #061726;
         text-decoration: underline;
         font-size: 3em;
     }
-    
+
     .call img {
         width: 80%;
         max-width: 800px;
         margin-top: 40px;
     }
-    
+
     .call {
         background-color: #061726;
         border: 5px solid black;
         padding: 20px;
     }
-    
+
     .call p {
         width: 70%;
         margin: 0 auto;
         padding: 20px;
         color: white;
         font-size: 2em;
-    
-    }
-    
-    .call button {
-        background-color: #71E2C2;
-        margin: 30px;
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-    }
-    
-    .call h1 {
-        color: #061726;
-        font-size: 3em;
 
-    
     }
-    
+
+   
+
     .information {
         background-color: #828C93;
         border: 5px solid black;
     }
-    
+
     .information p {
         width: 70%;
         margin-top: -40px;
         padding: 20px;
         color: #061726;
         font-size: 2em;
-    
+
     }
-    
+
     .information h2 {
         font-size: 3em;
         color: #061726;
         text-shadow: 3px 3px #71E2C2;
         text-decoration: wavy;
     }
-    
+
     .logo2 img {
         width: 10%;
         border: 2px solid #71E2C2;
     }
-    
+
     footer h2 {
-    
+
         text-shadow: 2px 2px black;
         text-decoration: underline;
         font-size: 2em;
-    
-    
+
+
     }
-    
-    .contact img{
+
+    .contact img {
         width: 20px;
-        
+
     }
-    
-    footer{
+
+    footer {
         border: 5px solid black;
-       
+
     }
 
-    
 
-    footer p{
+
+    footer p {
         font-size: 1.2em;
 
     }
-    
-    #lastModified{
+
+    #lastModified {
         font-weight: bold;
         font-size: 1.5em;
     }
-    
-    .weather{
+
+    .weather {
         background-color: #061726;
         border: 5px solid black;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 600px 300px;
-    
+
     }
 
-    .today{
+    .today {
         grid-column: 1/4;
         grid-row: 1;
     }
 
-    .tomorrow{
+    .tomorrow {
         grid-column: 1/2;
         grid-row: 2;
     }
 
-    .two-days{
+    .two-days {
         grid-column: 2/3;
         grid-row: 2;
     }
 
-    .three-days{
+    .three-days {
         grid-column: 3/4;
         grid-row: 2;
     }
-    
-    .weather p{
+
+    .weather p {
         color: white;
         font-size: 1.5em;
     }
 
-    .weather h2{
+    .weather h2 {
         font-size: 3em;
     }
 
-    .weather h3{
+    .weather h3 {
         font-size: 2em;
     }
-    
-    figcaption{
+
+    figcaption {
         color: white;
     }
-    
-    #weather-icon{
+
+    #weather-icon {
         width: 5%;
     }
-    
+
     /* Fresh Page Form */
     form {
         max-width: 480px;
         margin: auto;
         padding: 0.5rem;
         align-items: center;
-        
+
     }
+
     form fieldset {
         margin: 2rem 0;
         border: 1px solid #061726;
@@ -302,18 +294,23 @@
         padding: .5rem 2%;
 
     }
+
     form legend {
         margin: 0 1rem;
-        padding: 0 .5rem; 
+        padding: 0 .5rem;
         font-size: 2em;
     }
-    form label.top, form div {
+
+    form label.top,
+    form div {
         display: block;
         padding-top: 1rem;
         font-size: 1.5rem;
         text-align: left;
     }
-    form label.top input, form label.top select {
+
+    form label.top input,
+    form label.top select {
         display: block;
         font-size: 1.5rem;
         border: solid 1px #999;
@@ -321,13 +318,15 @@
         padding: .75rem;
         width: 85%;
         max-width: 460px;
-        background-color: rgba(0,0,0,0.1);
+        background-color: rgba(0, 0, 0, 0.1);
     }
+
     form label.sbs {
         display: block;
         padding: .75rem 0;
         color: #555;
     }
+
     form input.submitBtn {
         border: none;
         background-color: #71E2C2;
@@ -338,83 +337,86 @@
         width: 96%;
         max-width: 20rem;
     }
+
     form label.top input:required {
         border-left: #71E2C2 solid 6px;
     }
+
     form label.top input:required:valid {
         border-left: green solid 6px;
     }
-    
+
     textarea {
         width: 90%;
-        
+
         height: 100px;
         display: block;
-        
+
     }
-    
-    form select{
+
+    form select {
         padding: 15px;
         display: block;
         margin: 0 auto;
         margin-top: 10px;
         font-size: 1.5em;
     }
-    
-    .content2 h2{
+
+    .content2 h2 {
         color: #061726;
         text-shadow: 2px 2px #71E2C2;
-    
+
     }
-    
-    .cards{
+
+    .cards {
         border: 5px solid #061726;
-        
+
     }
-    
-    #map-location{
+
+    #map-location {
         width: 2rem;
-        
+
     }
-    
-    .find-us{
+
+    .find-us {
         padding-bottom: 20px;
         border-radius: 50%;
         border: 5px solid #061726;
     }
-    
-    .content3 h2, h3{
+
+    .content3 h2,
+    h3 {
         color: #061726;
         text-shadow: 2px 2px #71E2C2;
-    
-    }
-    
-    .history{
-        border: 5px solid #061726;
-    }
-    
-    .contact-page{
-        border: 5px solid #061726;
-    }
-    
-    .content3{
-        margin:20px;
 
     }
 
-    .content3 h2{
+    .history {
+        border: 5px solid #061726;
+    }
+
+    .contact-page {
+        border: 5px solid #061726;
+    }
+
+    .content3 {
+        margin: 20px;
+
+    }
+
+    .content3 h2 {
         font-size: 3em;
     }
 
-    .content3 h3{
+    .content3 h3 {
         font-size: 2em;
     }
 
-    .content3 p{
+    .content3 p {
         font-size: 1.5em;
     }
-    
-    #button{
+
+    #button {
         width: 30%;
         padding: 40px;
         margin: 20px;
@@ -422,8 +424,8 @@
         color: #061726;
         font-size: 3em;
     }
-    
-    .call a{
+
+    .call a {
         text-decoration: none;
     }
 
@@ -431,6 +433,46 @@
         width: 100%;
         max-width: 1600px;
     }
+
+    #button:hover {
+        color: #71E2C2;
+        background-color: #061726;
+    }
+
+
+
+    .history p {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 30px;
+
+
+
+    }
+
+    .weather h3{
+        color: white;
+        text-shadow: none;
+        text-decoration: underline;
+    }
+
+    .call a{
+        background-color: #71E2C2;
+        margin: 30px;
+        width: 30%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 3em;
+        color: #061726;
+    }
+
+   
+
+    
+
+   
 
 
 }

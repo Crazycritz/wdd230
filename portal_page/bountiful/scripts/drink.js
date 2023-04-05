@@ -115,11 +115,11 @@ const display = (fruits) => {
 
   // Build the h2 content out to show the prophet's full name - finish the template string
 
-  p1.textContent = "Total carbohydrates: " + carbs + "g";
-  p2.textContent = "Total protein: " + protein + "g";
-  p3.textContent = "Total fat: " + fat + "g";
-  p4.textContent = "Total sugar: " + sugar + "g";
-  p5.textContent = "Total calories: " + calories;
+  p1.textContent = "Total carbohydrates: " + carbs.toFixed(2) + "g";
+  p2.textContent = "Total protein: " + protein.toFixed(2) + "g";
+  p3.textContent = "Total fat: " + fat.toFixed(2) + "g";
+  p4.textContent = "Total sugar: " + sugar.toFixed(2) + "g";
+  p5.textContent = "Total calories: " + calories.toFixed(2);
 
   heading1.textContent =
     "Thanks for filling out the form for your drink, below is the output of the info you entered:";
